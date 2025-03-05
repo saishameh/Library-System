@@ -38,7 +38,8 @@ namespace WebApplication1
                     LinkButton7.Visible = true; 
                     LinkButton7.Text = "Hello " + Session["username"].ToString();
 
-                    LinkButton6.Visible = true; 
+                    LinkButton6.Visible = true;
+                    LinkButton10.Visible = false;
                     LinkButton11.Visible = false; 
                     LinkButton12.Visible = false; 
                     LinkButton8.Visible = false; 
@@ -55,6 +56,7 @@ namespace WebApplication1
                     LinkButton7.Text = "Hello Admin";
 
                     LinkButton6.Visible = false; // admin login link button
+                    LinkButton10.Visible = true;
                     LinkButton11.Visible = true; // author management link button
                     LinkButton12.Visible = true; // publisher management link button
                     LinkButton8.Visible = true; // book inventory link button
