@@ -1,0 +1,23 @@
+﻿.footerlinks {
+    color: #f1f1f1;
+    text-decoration: none !important;
+    transition: color 0.3s ease-in-out;
+}
+
+    .footerlinks:hover {
+        color: #ffcc00; /* A soft gold color for better contrast */
+    }
+
+#footer1 {
+    background: #1e1e2e; /* Dark navy */
+}
+
+#footer2 {
+    background: #282a36; /* Slightly lighter dark shade */
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto; /* Keeps aspect ratio */
+}
+
